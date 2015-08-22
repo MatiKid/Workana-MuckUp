@@ -1,0 +1,96 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+body {
+  font-family: "Montserrat", sans-serif; }
+  body a,
+  body a:hover,
+  body a:visited {
+    text-decoration: none; }
+  body h1,
+  body h2 {
+    text-transform: uppercase; }
+  body .btn {
+    background: rgba(240, 184, 92, 0.9);
+    color: #fff;
+    width: 245px;
+    padding: 15px 0;
+    display: inline-block;
+    text-align: center; }
+  body .clear {
+    clear: both; }
+
+.container {
+  width: 80%;
+  margin: auto; }
+
+header {
+  background: url("../img/welcome-bg.jpg") no-repeat;
+  background-size: cover;
+  height: 576px; }
+  header nav {
+    padding: 20px; }
+    header nav .brand,
+    header nav ul,
+    header nav li {
+      display: inline-block; }
+    header nav ul {
+      float: right; }
+    header nav li {
+      padding: 5px 10px; }
+      header nav li a {
+        color: #a6a7a9; }
+    header nav li:first-child {
+      border-right: 2px solid #a6a7a9; }
+    header nav li:last-child a {
+      background: rgba(255, 255, 255, 0.9);
+      color: #143256;
+      padding: 10px 40px;
+      border-radius: 5px; }
+  header .welcome-text {
+    width: 520px;
+    margin-top: 170px; }
+    header .welcome-text h1 {
+      padding: 10px;
+      margin-bottom: 40px;
+      font-size: 40px;
+      font-weight: 900;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.5); }
+
+.info h2 {
+  color: #e5b444;
+  font-size: 30px;
+  text-align: center;
+  margin: 30px 0; }
+.info article {
+  float: left;
+  width: 49%;
+  line-height: 20px;
+  color: #ccc; }
+.info a {
+  margin-top: 20px; }
+.info article:last-child p {
+  line-height: 25px;
+  color: #000;
+  font-weight: 900; }
+
+.recursos {
+  margin-top: 50px;
+  height: 300px;
+  clear: both;
+  background: url("../img/recursos-bg.jpg");
+  background-size: cover;
+  background-position: center; }
+  .recursos article {
+    padding-top: 90px;
+    color: #fff; }
+    .recursos article h2 {
+      margin-bottom: 10px;
+      font-size: 30px;
+      font-weight: 900; }
+    .recursos article img {
+      margin-top: 40px; }
+
+.quotes {
+  background: url("../img/quotes-bg.png"); }
+
+/*# sourceMappingURL=style.css.map */

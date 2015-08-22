@@ -1,0 +1,140 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+$font: 'Montserrat', sans-serif;
+$font-primary: #fff;
+$font-light: #a6a7a9;
+$font-dark: #000;
+$font-orange:  #e5b444;
+$font-workana: #143256;
+
+$h1-size: 40px;
+$h2-size: 30px;
+
+body {
+	font-family: $font;
+		a,
+		a:hover,
+		a:visited {
+			text-decoration: none;
+		}
+		
+		h1,
+		h2 {
+			text-transform: uppercase;
+		}
+
+		.btn {
+			background: rgba(240, 184, 92, 0.9);
+			color: $font-primary;
+			width: 245px;
+			padding: 15px 0;
+			display: inline-block;
+			text-align: center;
+		    // padding: 20px 40px;
+		}
+		.clear{
+			clear:both;
+		}
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+header {
+	background: url('../img/welcome-bg.jpg') no-repeat;
+	background-size: cover;
+	height: 576px;
+
+	nav {
+		padding: 20px;
+
+		.brand,
+		ul,
+		li {
+			display: inline-block;
+		}
+
+		ul {
+			float: right;
+		}
+		li {
+			padding: 5px 10px;
+			a {
+				color: $font-light;
+			}
+		}
+		li:first-child {
+			border-right: 2px solid $font-light;
+		}
+		li:last-child a{
+			background: rgba(255, 255, 255, 0.9);
+			color: $font-workana;
+			padding: 10px 40px;
+			border-radius: 5px;
+		}
+	}
+
+	.welcome-text {
+		width: 520px;
+		margin-top: 170px;
+		h1 {
+			padding: 10px;
+		    margin-bottom: 40px;
+			font-size: $h1-size;
+			font-weight: 900;
+			color: $font-primary;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+	}
+}
+
+.info {
+	h2 {
+		color: $font-orange;
+		font-size: $h2-size;
+		text-align: center;
+	    margin: 30px 0;
+	}
+	article {
+		float: left;
+		width: 49%;
+		line-height: 20px;
+		color: #ccc;
+	}
+	a {
+		margin-top: 20px;
+	}
+	
+	article:last-child p{
+		line-height: 25px;
+		color: $font-dark;
+		font-weight: 900;
+	}
+}
+
+.recursos {
+	margin-top: 50px;
+	height: 300px;
+	clear: both;
+	background: url("../img/recursos-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	article {
+		padding-top: 90px;
+		color: $font-primary;
+		h2 {
+		    margin-bottom: 10px;
+			font-size: $h2-size;
+			font-weight: 900;	
+		}
+		img {
+		    margin-top: 40px;
+		}
+	}
+}
+
+.quotes {
+	background: url("../img/quotes-bg.png");
+}
